@@ -1,0 +1,10 @@
+{
+  "deviceName": "Oppo Reno5",
+  "udid": "f47f50f1",
+  "platformName": "Android",
+  "platformVersion": "11",
+  "appPackage": "ae.gov.dha.flagship",
+  "appActivity": "ae.gov.dha.flagship.MVP.view.activities.MainActivity",
+  "noReset": "true",
+  "ignoreHiddenApiPolicyError": true
+}

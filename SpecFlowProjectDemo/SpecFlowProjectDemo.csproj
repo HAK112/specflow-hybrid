@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
+    <PackageReference Include="Gherkin" Version="19.0.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+    <PackageReference Include="Nunit3TestAdapter" Version="4.0.0" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="91.0.4472.1900" />
+    <PackageReference Include="SpecFlow.Assist.Dynamic" Version="1.4.2" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.8.35" />    
+    <PackageReference Include="SpecRun.SpecFlow" Version="3.8.12" />    
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />    
+    <PackageReference Include="WebDriverManager" Version="2.11.1" />    
+	  <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />  
+   
+    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Hooks\" />
+  </ItemGroup>
+
+</Project>

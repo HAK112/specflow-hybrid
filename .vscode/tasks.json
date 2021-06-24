@@ -1,0 +1,63 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "report",
+            "type": "shell",
+            "command": "livingdoc",
+            "args": [ "test-assembly",
+                "${workspaceFolder}/SpecFlowProjectDemo/bin/Debug/netcoreapp3.1/SpecFlowProjectDemo.dll",
+                "-t",
+                "${workspaceFolder}/SpecFlowProjectDemo/bin/Debug/netcoreapp3.1/TestExecution.json",
+                "--output",
+                "${workspaceFolder}/SpecFlowProjectDemo/AppiumSpecflowReport.html",
+            ]
+        },
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/SpecFlowProjectDemo/SpecFlowProjectDemo.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "test",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/SpecFlowProjectDemo/SpecFlowProjectDemo.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${workspaceFolder}/SpecFlowProjectDemo/SpecFlowProjectDemo.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

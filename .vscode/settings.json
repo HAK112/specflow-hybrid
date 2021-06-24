@@ -1,0 +1,6 @@
+{
+    "cucumberautocomplete.steps": [
+        "SpecFlowProjectDemo/Steps/*.cs"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true
+}

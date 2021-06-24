@@ -1,0 +1,323 @@
+﻿2021-06-17T15:30:37.3114194+05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-06-17T15:30:37.3117250+05:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.8.12 in Framework netcore31 in x64 mode execution started
+2021-06-17T15:30:37.3117318+05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-17T15:30:37.3137140+05:00;VSTestExecutionThread;Info;Current UserName: 'zeeshan', MachineName: 'DESKTOP-CLEVRCQ'
+2021-06-17T15:30:37.3528093+05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowProjectDemo.dll
+2021-06-17T15:30:37.3530770+05:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\TestResults" (default)
+2021-06-17T15:30:37.3531649+05:00;VSTestExecutionThread;Info;Profile: 
+2021-06-17T15:30:37.4198449+05:00;VSTestExecutionThread;Info;Log file path: C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\TestResults\Unnamed project__2021-06-17T153037.log
+2021-06-17T15:30:37.4292586+05:00;Thread#13;Info;Checking activation
+2021-06-17T15:30:37.5708014+05:00;Thread#13;Info;Activated.
+2021-06-17T15:30:37.5710705+05:00;Thread#13;Info;Activation check completed
+2021-06-17T15:30:37.5712010+05:00;Thread#13;Info;Starting test run
+2021-06-17T15:30:37.7097475+05:00;Thread#13;Info;Discovering target: Default
+2021-06-17T15:30:37.7104370+05:00;Thread#13;Info;Discovering tests from assembly: C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowProjectDemo.dll
+2021-06-17T15:30:37.8667353+05:00;Thread#13;Info;Discovered tests from assembly: C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowProjectDemo.dll
+2021-06-17T15:30:37.8692241+05:00:Test Suite Dump
+2021-06-17T15:30:37.8719793+05:00:#0: Unnamed project/ - 
+2021-06-17T15:30:37.8720213+05:00:#1: Default - 
+2021-06-17T15:30:37.8720246+05:00:#2: SpecFlowProjectDemo - 
+2021-06-17T15:30:37.8720278+05:00:#3: PowerOptix - 
+2021-06-17T15:30:37.8738929+05:00:#4: Login test and verify UI Elements - TestAssembly:SpecFlowProjectDemo/Feature:PowerOptix/Scenario:Login+test+and+verify+UI+Elements
+2021-06-17T15:30:37.8739865+05:00:End: Test Suite Dump
+2021-06-17T15:30:37.9064135+05:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-17T15:30:37.9124470+05:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-06-17T15:30:37.9125349+05:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-17T15:30:37.9178854+05:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-17T15:30:37.9179050+05:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-17T15:30:37.9179149+05:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-06-17T15:30:37.9179252+05:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-17T15:30:37.9189494+05:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-17T15:30:37.9206734+05:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-06-17T15:30:37.9268958+05:00:Thread #0: creating new test thread executor for SpecFlowProjectDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-06-17T15:30:37.9305945+05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-17T15:30:37.9308787+05:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-06-17T15:30:37.9352128+05:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-06-17T15:30:37.9377218+05:00:starting Out Of Process Executor
+2021-06-17T15:30:37.9415555+05:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:30:37.9461645+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-06-17T15:30:37.9461825+05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-06-17T15:30:37.9480159+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:37.9485608+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-06-17T15:30:37.9487508+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-06-17T15:30:37.9488262+05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:37.9491243+05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-17T15:30:37.9500749+05:00:Tfm: netcoreapp3.1
+2021-06-17T15:30:37.9501025+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-17T15:30:37.9501072+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-06-17T15:30:37.9502239+05:00:[AssemblyCache] Found file 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-06-17T15:30:37.9509435+05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-06-17T15:30:37.9520435+05:00:Starting callback TCP Rpc server
+2021-06-17T15:30:37.9810372+05:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-06-17T15:30:37.9810972+05:00:Started callback TCP Rpc server on port 32768
+2021-06-17T15:30:37.9811007+05:00:Starting logger TCP Rpc server
+2021-06-17T15:30:37.9838339+05:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-06-17T15:30:37.9838659+05:00:Started logger TCP Rpc server on port 32769
+2021-06-17T15:30:38.1606624+05:00:Executing test executor at 'dotnet' 'exec "C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 8848 --uniqueId "2021-06-17T153037" --outputFolder "C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:38.1795237+05:00:Executor with PID 1468 has been started successfully.
+2021-06-17T15:30:38.1839429+05:00:Out of Process Executor 1468 started
+2021-06-17T15:30:38.1839599+05:00:Waiting for endpoint
+2021-06-17T15:30:38.7749958+05:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:30:38.7750203+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-06-17T15:30:38.7750253+05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-06-17T15:30:38.7750335+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:38.7750366+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-06-17T15:30:38.7751026+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-06-17T15:30:38.7751587+05:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:38.7751634+05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-17T15:30:38.7751981+05:00:Tfm: netcoreapp3.1
+2021-06-17T15:30:38.7752069+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-17T15:30:38.7752094+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-06-17T15:30:38.7753093+05:00:[AssemblyCache] Found file 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-06-17T15:30:38.7761915+05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-06-17T15:30:39.7617247+05:00:Remote executor port received: 32770
+2021-06-17T15:30:39.7623019+05:00:Creating executor TCP client on port 32770
+2021-06-17T15:30:39.7628499+05:00:Created executor TCP client on port 32770
+2021-06-17T15:30:39.7628596+05:00:Connecting to remote executor TCP server
+2021-06-17T15:30:39.7639339+05:00:Connected remote executor TCP server
+2021-06-17T15:30:39.7641131+05:00:trying to connect to Out of Process Executor the 1 attempt
+2021-06-17T15:30:39.7641279+05:00:Connection to Out of Process Executor established in the 1 attempt
+2021-06-17T15:30:39.9416516+05:00:2021-06-17T15:30:39.9405100+05:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowProjectDemo.dll on test thread #0
+2021-06-17T15:30:39.9473868+05:00:Endpoint 1468 started
+2021-06-17T15:30:39.9695035+05:00:2021-06-17T15:30:39.9691125+05:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-06-17T15:30:40.1135327+05:00:2021-06-17T15:30:40.1131816+05:00:Assembly resolving TechTalk.SpecFlow, Version=3.8.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-06-17T15:30:40.1169879+05:00:2021-06-17T15:30:40.1166248+05:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-06-17T15:30:40.1209194+05:00:2021-06-17T15:30:40.1204346+05:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\zeeshan\.nuget\packages\specflow\3.8.7\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-06-17T15:30:40.2447495+05:00:2021-06-17T15:30:40.2434599+05:00:Thread#0:T:-> Loading plugin C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowProjectDemo.dll
+2021-06-17T15:30:40.2485822+05:00:2021-06-17T15:30:40.2465859+05:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-17T15:30:40.2530540+05:00:2021-06-17T15:30:40.2504349+05:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-06-17T15:30:40.2591973+05:00:2021-06-17T15:30:40.2544974+05:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\zeeshan\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2021-06-17T15:30:40.3342879+05:00:2021-06-17T15:30:40.3333927+05:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-06-17T15:30:40.3350660+05:00:2021-06-17T15:30:40.3347816+05:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-06-17T15:30:40.3358592+05:00:2021-06-17T15:30:40.3355235+05:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\zeeshan\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2021-06-17T15:30:40.3461494+05:00:2021-06-17T15:30:40.3450144+05:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowProjectDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-06-17T15:30:40.3468683+05:00:2021-06-17T15:30:40.3465328+05:00:Thread#0:T:-> Loading plugin C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-06-17T15:30:40.3500448+05:00:2021-06-17T15:30:40.3496652+05:00:Assembly resolving LivingDoc.Dtos, Version=3.8.0.0, Culture=neutral, PublicKeyToken=null
+2021-06-17T15:30:40.3504875+05:00:2021-06-17T15:30:40.3502679+05:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-06-17T15:30:40.3514187+05:00:2021-06-17T15:30:40.3509419+05:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\zeeshan\.nuget\packages\specflow.plus.livingdocplugin\3.8.35\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-06-17T15:30:40.3545011+05:00:2021-06-17T15:30:40.3538219+05:00:Thread#0:T:-> Loading plugin C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-06-17T15:30:40.3649210+05:00:2021-06-17T15:30:40.3645246+05:00:Thread#0:T:-> Using default config
+2021-06-17T15:30:40.3766434+05:00:2021-06-17T15:30:40.3757954+05:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-06-17T15:30:40.3772322+05:00:2021-06-17T15:30:40.3769750+05:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-06-17T15:30:40.3779178+05:00:2021-06-17T15:30:40.3776425+05:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\zeeshan\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-06-17T15:30:40.3792314+05:00:2021-06-17T15:30:40.3789081+05:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-06-17T15:30:40.3797048+05:00:2021-06-17T15:30:40.3794662+05:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-06-17T15:30:40.3803523+05:00:2021-06-17T15:30:40.3800973+05:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\zeeshan\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-06-17T15:30:40.3859001+05:00:2021-06-17T15:30:40.3855194+05:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:30:40.3864561+05:00:2021-06-17T15:30:40.3861479+05:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2021-06-17T15:30:40.3874785+05:00:2021-06-17T15:30:40.3871650+05:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\zeeshan\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2021-06-17T15:30:40.4150735+05:00:2021-06-17T15:30:40.4147019+05:00:Assembly resolving nunit.framework, Version=3.13.2.0, Culture=neutral, PublicKeyToken=2638cd05610744eb
+2021-06-17T15:30:40.4155438+05:00:2021-06-17T15:30:40.4153062+05:00:[AssemblyCache] Trying to resolve 'nunit.framework' from .deps.json file
+2021-06-17T15:30:40.4162545+05:00:2021-06-17T15:30:40.4159812+05:00:[AssemblyCache] Resolved 'nunit.framework' to 'C:\Users\zeeshan\.nuget\packages\nunit\3.13.2\lib\netstandard2.0\nunit.framework.dll'
+2021-06-17T15:30:40.4390568+05:00:2021-06-17T15:30:40.4386684+05:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2021-06-17T15:30:40.4395689+05:00:2021-06-17T15:30:40.4393306+05:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2021-06-17T15:30:40.4404120+05:00:2021-06-17T15:30:40.4400161+05:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\zeeshan\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2021-06-17T15:30:40.7602287+05:00:2021-06-17T15:30:40.7494794+05:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2021-06-17T15:30:40.7692785+05:00:2021-06-17T15:30:40.7612194+05:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2021-06-17T15:30:40.7860116+05:00:2021-06-17T15:30:40.7702878+05:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\zeeshan\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2021-06-17T15:30:44.7621613+05:00:2021-06-17T15:30:42.4222774+05:00:Thread#0:T:Chrome Driver Instantiated: OpenQA.Selenium.Chrome.ChromeDriver
+2021-06-17T15:30:44.7769182+05:00:Thread#0: Test #4/0 is started on thread #0
+2021-06-17T15:30:44.8101455+05:00:2021-06-17T15:30:44.8064270+05:00:Thread#0:B:Given open browser
+2021-06-17T15:30:45.9887102+05:00:2021-06-17T15:30:45.9521771+05:00:Assembly resolving System.Net.Requests.resources, Version=4.1.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:30:46.0030623+05:00:2021-06-17T15:30:45.9995281+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' from .deps.json file
+2021-06-17T15:30:46.0147833+05:00:2021-06-17T15:30:46.0132857+05:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' from .deps.json
+2021-06-17T15:30:46.0191093+05:00:2021-06-17T15:30:46.0185977+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:46.0297401+05:00:2021-06-17T15:30:46.0284247+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\System.Net.Requests.resources.dll'
+2021-06-17T15:30:46.0307282+05:00:2021-06-17T15:30:46.0303420+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\System.Net.Requests.resources.exe'
+2021-06-17T15:30:46.0316563+05:00:2021-06-17T15:30:46.0312739+05:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:30:46.0327081+05:00:2021-06-17T15:30:46.0323572+05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-17T15:30:46.0340514+05:00:2021-06-17T15:30:46.0336239+05:00:Tfm: netcoreapp3.1
+2021-06-17T15:30:46.0348497+05:00:2021-06-17T15:30:46.0344399+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-17T15:30:46.0355544+05:00:2021-06-17T15:30:46.0352269+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Net.Requests.resources.dll'
+2021-06-17T15:30:46.0363086+05:00:2021-06-17T15:30:46.0359624+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Net.Requests.resources.exe'
+2021-06-17T15:30:46.0370360+05:00:2021-06-17T15:30:46.0366869+05:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-17T15:30:46.0534807+05:00:2021-06-17T15:30:46.0529258+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16'
+2021-06-17T15:30:46.0541109+05:00:2021-06-17T15:30:46.0537320+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16\System.Net.Requests.resources.dll'
+2021-06-17T15:30:46.0553669+05:00:2021-06-17T15:30:46.0548727+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16\System.Net.Requests.resources.exe'
+2021-06-17T15:30:46.0562226+05:00:2021-06-17T15:30:46.0558243+05:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16'
+2021-06-17T15:30:46.0615354+05:00:2021-06-17T15:30:46.0568519+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16'
+2021-06-17T15:30:46.0622266+05:00:2021-06-17T15:30:46.0619107+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16\System.Net.Requests.resources.dll'
+2021-06-17T15:30:46.0630091+05:00:2021-06-17T15:30:46.0626655+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16\System.Net.Requests.resources.exe'
+2021-06-17T15:30:46.0637469+05:00:2021-06-17T15:30:46.0633904+05:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16'
+2021-06-17T15:30:46.0650033+05:00:2021-06-17T15:30:46.0646079+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16'
+2021-06-17T15:30:46.0656004+05:00:2021-06-17T15:30:46.0652648+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16\System.Net.Requests.resources.dll'
+2021-06-17T15:30:46.0666459+05:00:2021-06-17T15:30:46.0662743+05:00:[AssemblyCache] Trying to resolve 'System.Net.Requests.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16\System.Net.Requests.resources.exe'
+2021-06-17T15:30:46.0674601+05:00:2021-06-17T15:30:46.0670498+05:00:[AssemblyCache] Could not resolve 'System.Net.Requests.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16'
+2021-06-17T15:30:46.0709485+05:00:2021-06-17T15:30:46.0704562+05:00:Assembly resolving System.Net.Requests.resources, Version=4.1.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:30:46.1336966+05:00:2021-06-17T15:30:46.1308767+05:00:Thread#0:T:error: unknown error: cannot determine loading status
+2021-06-17T15:30:46.1344915+05:00:2021-06-17T15:30:46.1340770+05:00:Thread#0:T:from disconnected: received Inspector.detached event
+2021-06-17T15:30:46.1352501+05:00:2021-06-17T15:30:46.1348083+05:00:Thread#0:T:  (Session info: chrome=91.0.4472.106) (1.3s)
+2021-06-17T15:30:46.1507314+05:00:2021-06-17T15:30:46.1501840+05:00:Thread#0:B:When user enter username  and password
+2021-06-17T15:30:46.1514965+05:00:2021-06-17T15:30:46.1511428+05:00:Thread#0:B:  --- table step argument ---
+2021-06-17T15:30:46.1520825+05:00:2021-06-17T15:30:46.1517844+05:00:Thread#0:B:  | Username | Password   |
+2021-06-17T15:30:46.1526465+05:00:2021-06-17T15:30:46.1523506+05:00:Thread#0:B:  | Perfecto | Password2! |
+2021-06-17T15:30:46.1557789+05:00:2021-06-17T15:30:46.1552042+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1662222+05:00:2021-06-17T15:30:46.1642860+05:00:Thread#0:B:Then click on sign In button
+2021-06-17T15:30:46.1770570+05:00:2021-06-17T15:30:46.1761471+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1780087+05:00:2021-06-17T15:30:46.1776618+05:00:Thread#0:B:Then verify user login successfully
+2021-06-17T15:30:46.1787706+05:00:2021-06-17T15:30:46.1784147+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1795831+05:00:2021-06-17T15:30:46.1791539+05:00:Thread#0:B:Then user click on XM link and AESO link
+2021-06-17T15:30:46.1804208+05:00:2021-06-17T15:30:46.1800523+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1814160+05:00:2021-06-17T15:30:46.1811390+05:00:Thread#0:B:Then click on transaction
+2021-06-17T15:30:46.1819375+05:00:2021-06-17T15:30:46.1817170+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1823853+05:00:2021-06-17T15:30:46.1821701+05:00:Thread#0:B:Then click on operation link
+2021-06-17T15:30:46.1828509+05:00:2021-06-17T15:30:46.1826404+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1832762+05:00:2021-06-17T15:30:46.1830682+05:00:Thread#0:B:Then click on As Availability link
+2021-06-17T15:30:46.1837233+05:00:2021-06-17T15:30:46.1835203+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1841473+05:00:2021-06-17T15:30:46.1839386+05:00:Thread#0:B:Then verify Add,Delete,Save,Undo and export is displayed on screen
+2021-06-17T15:30:46.1846191+05:00:2021-06-17T15:30:46.1843982+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1850540+05:00:2021-06-17T15:30:46.1848454+05:00:Thread#0:B:Then click on Add Button
+2021-06-17T15:30:46.1888646+05:00:2021-06-17T15:30:46.1875766+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1902379+05:00:2021-06-17T15:30:46.1896190+05:00:Thread#0:B:Then click on transcation
+2021-06-17T15:30:46.1984746+05:00:2021-06-17T15:30:46.1936954+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.1995455+05:00:2021-06-17T15:30:46.1990703+05:00:Thread#0:B:Then click on operation and unit contraints
+2021-06-17T15:30:46.2004861+05:00:2021-06-17T15:30:46.1999540+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.2014279+05:00:2021-06-17T15:30:46.2009260+05:00:Thread#0:B:Then click on show effective button
+2021-06-17T15:30:46.2051892+05:00:2021-06-17T15:30:46.2046464+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:46.2515235+05:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2021-06-17T15:30:46.2616908+05:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-17T15:30:46.2617896+05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-17T15:30:46.2617965+05:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-17T15:30:46.2618980+05:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-17T15:30:46.2619044+05:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-17T15:30:46.2619070+05:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-06-17T15:30:46.2619099+05:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-17T15:30:46.2619556+05:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-17T15:30:46.2620090+05:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2021-06-17T15:30:46.3549137+05:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 1.5763157 seconds
+2021-06-17T15:30:46.3635444+05:00:Thread#0: Test #4/1 is started on thread #0
+2021-06-17T15:30:46.3659721+05:00:2021-06-17T15:30:46.3646660+05:00:Thread#0:B:Given open browser
+2021-06-17T15:30:58.6129788+05:00:2021-06-17T15:30:58.6068748+05:00:Thread#0:T:error: chrome not reachable
+2021-06-17T15:30:58.6155038+05:00:2021-06-17T15:30:58.6145464+05:00:Thread#0:T:  (Session info: chrome=91.0.4472.106) (12.2s)
+2021-06-17T15:30:58.6180538+05:00:2021-06-17T15:30:58.6171158+05:00:Thread#0:B:When user enter username  and password
+2021-06-17T15:30:58.6197262+05:00:2021-06-17T15:30:58.6188632+05:00:Thread#0:B:  --- table step argument ---
+2021-06-17T15:30:58.6213679+05:00:2021-06-17T15:30:58.6204323+05:00:Thread#0:B:  | Username | Password   |
+2021-06-17T15:30:58.6230139+05:00:2021-06-17T15:30:58.6221057+05:00:Thread#0:B:  | Perfecto | Password2! |
+2021-06-17T15:30:58.6255290+05:00:2021-06-17T15:30:58.6243417+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6283634+05:00:2021-06-17T15:30:58.6275037+05:00:Thread#0:B:Then click on sign In button
+2021-06-17T15:30:58.6298981+05:00:2021-06-17T15:30:58.6291542+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6351831+05:00:2021-06-17T15:30:58.6306482+05:00:Thread#0:B:Then verify user login successfully
+2021-06-17T15:30:58.6367110+05:00:2021-06-17T15:30:58.6359690+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6383029+05:00:2021-06-17T15:30:58.6375242+05:00:Thread#0:B:Then user click on XM link and AESO link
+2021-06-17T15:30:58.6398334+05:00:2021-06-17T15:30:58.6390684+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6415673+05:00:2021-06-17T15:30:58.6405711+05:00:Thread#0:B:Then click on transaction
+2021-06-17T15:30:58.6444487+05:00:2021-06-17T15:30:58.6430075+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6456537+05:00:2021-06-17T15:30:58.6450925+05:00:Thread#0:B:Then click on operation link
+2021-06-17T15:30:58.6467814+05:00:2021-06-17T15:30:58.6462265+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6480430+05:00:2021-06-17T15:30:58.6473340+05:00:Thread#0:B:Then click on As Availability link
+2021-06-17T15:30:58.6489838+05:00:2021-06-17T15:30:58.6485253+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6499971+05:00:2021-06-17T15:30:58.6496745+05:00:Thread#0:B:Then verify Add,Delete,Save,Undo and export is displayed on screen
+2021-06-17T15:30:58.6508248+05:00:2021-06-17T15:30:58.6504859+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6515491+05:00:2021-06-17T15:30:58.6511503+05:00:Thread#0:B:Then click on Add Button
+2021-06-17T15:30:58.6524356+05:00:2021-06-17T15:30:58.6520653+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6531025+05:00:2021-06-17T15:30:58.6528079+05:00:Thread#0:B:Then click on transcation
+2021-06-17T15:30:58.6537254+05:00:2021-06-17T15:30:58.6534423+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6543051+05:00:2021-06-17T15:30:58.6540288+05:00:Thread#0:B:Then click on operation and unit contraints
+2021-06-17T15:30:58.6550257+05:00:2021-06-17T15:30:58.6546984+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6557019+05:00:2021-06-17T15:30:58.6553834+05:00:Thread#0:B:Then click on show effective button
+2021-06-17T15:30:58.6562850+05:00:2021-06-17T15:30:58.6560252+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:30:58.6598779+05:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-17T15:30:58.6600048+05:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2021-06-17T15:30:58.6600145+05:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-06-17T15:30:58.6601328+05:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-06-17T15:30:58.6601413+05:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-06-17T15:30:58.6601561+05:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-06-17T15:30:58.6601593+05:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-06-17T15:30:58.6602239+05:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-06-17T15:30:58.6602909+05:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2021-06-17T15:30:58.6641555+05:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 12.300416 seconds
+2021-06-17T15:30:58.6650583+05:00:Thread#0: Test #4/2 is started on thread #0
+2021-06-17T15:30:58.6664308+05:00:2021-06-17T15:30:58.6659981+05:00:Thread#0:B:Given open browser
+2021-06-17T15:31:10.8932985+05:00:2021-06-17T15:31:10.8893397+05:00:Thread#0:T:error: chrome not reachable
+2021-06-17T15:31:10.8970329+05:00:2021-06-17T15:31:10.8953895+05:00:Thread#0:T:  (Session info: chrome=91.0.4472.106) (12.2s)
+2021-06-17T15:31:10.9005340+05:00:2021-06-17T15:31:10.8996480+05:00:Thread#0:B:When user enter username  and password
+2021-06-17T15:31:10.9017410+05:00:2021-06-17T15:31:10.9011242+05:00:Thread#0:B:  --- table step argument ---
+2021-06-17T15:31:10.9031226+05:00:2021-06-17T15:31:10.9024587+05:00:Thread#0:B:  | Username | Password   |
+2021-06-17T15:31:10.9042858+05:00:2021-06-17T15:31:10.9036924+05:00:Thread#0:B:  | Perfecto | Password2! |
+2021-06-17T15:31:10.9062639+05:00:2021-06-17T15:31:10.9056248+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9080509+05:00:2021-06-17T15:31:10.9072806+05:00:Thread#0:B:Then click on sign In button
+2021-06-17T15:31:10.9097645+05:00:2021-06-17T15:31:10.9089363+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9116327+05:00:2021-06-17T15:31:10.9107864+05:00:Thread#0:B:Then verify user login successfully
+2021-06-17T15:31:10.9153894+05:00:2021-06-17T15:31:10.9143196+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9162113+05:00:2021-06-17T15:31:10.9158445+05:00:Thread#0:B:Then user click on XM link and AESO link
+2021-06-17T15:31:10.9169927+05:00:2021-06-17T15:31:10.9166387+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9177473+05:00:2021-06-17T15:31:10.9173971+05:00:Thread#0:B:Then click on transaction
+2021-06-17T15:31:10.9185240+05:00:2021-06-17T15:31:10.9181520+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9192622+05:00:2021-06-17T15:31:10.9189107+05:00:Thread#0:B:Then click on operation link
+2021-06-17T15:31:10.9199821+05:00:2021-06-17T15:31:10.9196378+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9207205+05:00:2021-06-17T15:31:10.9203765+05:00:Thread#0:B:Then click on As Availability link
+2021-06-17T15:31:10.9214849+05:00:2021-06-17T15:31:10.9211354+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9222193+05:00:2021-06-17T15:31:10.9218697+05:00:Thread#0:B:Then verify Add,Delete,Save,Undo and export is displayed on screen
+2021-06-17T15:31:10.9229782+05:00:2021-06-17T15:31:10.9226450+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9237043+05:00:2021-06-17T15:31:10.9233714+05:00:Thread#0:B:Then click on Add Button
+2021-06-17T15:31:10.9244408+05:00:2021-06-17T15:31:10.9241120+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9253464+05:00:2021-06-17T15:31:10.9248900+05:00:Thread#0:B:Then click on transcation
+2021-06-17T15:31:10.9264473+05:00:2021-06-17T15:31:10.9258671+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9273409+05:00:2021-06-17T15:31:10.9269219+05:00:Thread#0:B:Then click on operation and unit contraints
+2021-06-17T15:31:10.9282268+05:00:2021-06-17T15:31:10.9278359+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9290946+05:00:2021-06-17T15:31:10.9287594+05:00:Thread#0:B:Then click on show effective button
+2021-06-17T15:31:10.9299064+05:00:2021-06-17T15:31:10.9295419+05:00:Thread#0:T:skipped because of previous errors
+2021-06-17T15:31:10.9325383+05:00:Thread#0:Scheduler: get next test for thread 0
+2021-06-17T15:31:10.9325910+05:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-17T15:31:10.9325951+05:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-06-17T15:31:10.9325998+05:00:Thread#0:Scheduler: No more tests for thread
+2021-06-17T15:31:10.9498236+05:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 12.2846202 seconds
+2021-06-17T15:31:10.9594657+05:00:2021-06-17T15:31:10.9588920+05:00:Got Deinitialize Signal
+2021-06-17T15:31:10.9636213+05:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-06-17T15:31:10.9646008+05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-17T15:31:10.9668973+05:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-06-17T15:31:10.9685619+05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:31:10.9685934+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-06-17T15:31:10.9686043+05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-06-17T15:31:10.9686140+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:31:10.9686195+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-06-17T15:31:10.9687003+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-06-17T15:31:10.9687641+05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1'
+2021-06-17T15:31:10.9687736+05:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-06-17T15:31:10.9688729+05:00:Tfm: netcoreapp3.1
+2021-06-17T15:31:10.9688818+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-17T15:31:10.9688886+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-06-17T15:31:10.9689730+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-06-17T15:31:10.9690706+05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\SpecFlowProjectDemo\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-06-17T15:31:10.9778565+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16'
+2021-06-17T15:31:10.9778742+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16\System.Diagnostics.Process.resources.dll'
+2021-06-17T15:31:10.9780180+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16\System.Diagnostics.Process.resources.exe'
+2021-06-17T15:31:10.9781182+05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.16'
+2021-06-17T15:31:10.9783623+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16'
+2021-06-17T15:31:10.9783700+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16\System.Diagnostics.Process.resources.dll'
+2021-06-17T15:31:10.9784625+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16\System.Diagnostics.Process.resources.exe'
+2021-06-17T15:31:10.9785559+05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.16'
+2021-06-17T15:31:10.9787390+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16'
+2021-06-17T15:31:10.9787463+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16\System.Diagnostics.Process.resources.dll'
+2021-06-17T15:31:10.9788508+05:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16\System.Diagnostics.Process.resources.exe'
+2021-06-17T15:31:10.9789323+05:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.16'
+2021-06-17T15:31:10.9804877+05:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2021-06-17T15:31:10.9943084+05:00:Thread#-1:Scheduler: get next test for thread -1
+2021-06-17T15:31:10.9944058+05:00:Thread#:Scheduler: at the end of normal test queue
+2021-06-17T15:31:10.9944122+05:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-17T15:31:11.0047131+05:00;Thread#13;Info;test run finished
+2021-06-17T15:31:11.0049870+05:00;Thread#13;Info;publishing test results
+2021-06-17T15:31:11.0055056+05:00;Thread#13;Info;Not publishing results.
+2021-06-17T15:31:11.0058430+05:00;Thread#13;Info;test results published
+2021-06-17T15:31:11.0059921+05:00;Thread#13;Info;generating reports
+2021-06-17T15:31:11.1428137+05:00;Thread#13;Info;Starting external report generation process
+2021-06-17T15:31:14.1076932+05:00;Thread#13;Info;Successfully generated reports.
+2021-06-17T15:31:14.1116530+05:00;Thread#13;Info;Successfully generated reports
+2021-06-17T15:31:14.1207427+05:00:Total: 1 (test executions: 3)
+2021-06-17T15:31:14.1225742+05:00:Succeeded: 0
+2021-06-17T15:31:14.1229099+05:00:Ignored: 0
+2021-06-17T15:31:14.1232385+05:00:Pending: 0
+2021-06-17T15:31:14.1232513+05:00:Skipped: 0
+2021-06-17T15:31:14.1234903+05:00:Failed: 1
+2021-06-17T15:31:14.1298117+05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-06-17T15:31:14.1299185+05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\zeeshan\source\repos\SpecFlowProjectDemo\TestResults\Unnamed project__2021-06-17T153037.html'
+========== End of log file ==========
