@@ -45,9 +45,3 @@ Scenario: Testing Mobile and Browser Config
 	# Then click on transcation
 	# Then click on operation and unit contraints
 	# Then click on show effective button
-	
-	
-
-
-
-
