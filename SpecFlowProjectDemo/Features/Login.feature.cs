@@ -70,15 +70,15 @@ namespace SpecFlowProjectDemo.Features
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("API HIT", new string[] {
-                "test"}, SourceLine=20)]
-        public virtual void APIHIT()
+        [TechTalk.SpecRun.ScenarioAttribute("Testing Mobile and Browser Config", new string[] {
+                "test"}, SourceLine=4)]
+        public virtual void TestingMobileAndBrowserConfig()
         {
             string[] tagsOfScenario = new string[] {
                     "test"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("API HIT", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 21
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Testing Mobile and Browser Config", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -101,21 +101,21 @@ this.ScenarioInitialize(scenarioInfo);
                 TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
                             "application"});
                 table1.AddRow(new string[] {
-                            "android"});
-#line 22
+                            "browser"});
+#line 6
  testRunner.Given("the application is open", ((string)(null)), table1, "Given ");
 #line hidden
-#line 25
- testRunner.Then("user clicks on continue as guest", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 9
+ testRunner.Given("open browser", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 26
- testRunner.Then("user clicks on coronavirus", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 27
- testRunner.Then("user clicks on material", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 28
- testRunner.Then("the api is hit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Username",
+                            "Password"});
+                table2.AddRow(new string[] {
+                            "automation.kualitee@gmail.com",
+                            "kualitatem"});
+#line 10
+ testRunner.When("user enter username  and password", ((string)(null)), table2, "When ");
 #line hidden
             }
             this.ScenarioCleanup();
