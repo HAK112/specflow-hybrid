@@ -1,11 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-
     <PackageReference Include="Appium.WebDriver" Version="4.3.1" />
     <PackageReference Include="ExcelDataReader" Version="3.6.0" />
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
@@ -21,9 +20,7 @@
     <PackageReference Include="SpecRun.SpecFlow" Version="3.8.12" />    
     <PackageReference Include="FluentAssertions" Version="5.10.3" />    
     <PackageReference Include="WebDriverManager" Version="2.11.1" />    
-	  <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />  
-   
-    
+	  <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />     
   </ItemGroup>
 
   <ItemGroup>
