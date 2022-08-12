@@ -1,28 +1,15 @@
-﻿Feature: PowerOptix
-	Simple calculator for adding two numbers
+﻿Feature: Kualitee Login
+	Loggin in to Kualitee Website with Correct Credentials
 	
-# @test
-# Scenario: Testing Mobile and Browser Config
-# 	Given the application is open
-# 		| application |
-# 		| android 	|
-# 	Then user clicks on continue as guest
-# 	Then user clicks on coronavirus
-# 	Then user clicks on material
-# 	Given the application is open
-# 		| application |
-# 		| browser 	|
-# 	Given open browser
-# 	When user enter username  and password 
-# 		| Username | Password   |
-# 	    | automation.kualitee@gmail.com | kualitatem |
-
 @test
-Scenario: API HIT
+Scenario: Testing Browser Config
 	Given the application is open
 		| application |
-		| android 	|
-	Then user clicks on continue as guest
-	Then user clicks on coronavirus
-	Then user clicks on material
-	Then the api is hit
+		| browser 	|
+	Given open browser
+	When user enter username  and password 
+		| Username | Password   |
+	    | automation.kualitee+1@gmail.com | kualitatem |
+	Then click on sign In button
+	Then verify user login successfully
+	

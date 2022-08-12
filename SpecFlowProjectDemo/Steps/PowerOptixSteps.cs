@@ -32,7 +32,7 @@ namespace SpecFlowProjectDemo.Steps
         [Given(@"open browser")]
         public void GivenOpenBrowser()
         {
-            _webDriver.Navigate().GoToUrl(" https://dev.poweroptix.com/Sub/");
+            _webDriver.Navigate().GoToUrl("https://demodev.kualitee.com");
             _webDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(120);
             
         }

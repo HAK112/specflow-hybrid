@@ -18,13 +18,13 @@ namespace SpecFlowProjectDemo.Pages
             this.driver = (IWebDriver)Capabilities.driver;
         }
 
-        public IWebElement username => driver.FindElement(By.XPath("//input[@id='UserName']"));
+        public IWebElement username => driver.FindElement(By.XPath("//input[@id='email_id']"));
 
-        public IWebElement password => driver.FindElement(By.XPath("//input[@id='Password']"));
+        public IWebElement password => driver.FindElement(By.XPath("//input[@id='password']"));
 
-        public IWebElement signinBtn => driver.FindElement(By.XPath("//a[@id='signin']"));
+        public IWebElement signinBtn => driver.FindElement(By.XPath("//input[@value='Let Me In']"));
 
-        public IWebElement homeTitle => driver.FindElement(By.XPath("//h1[text()='Customer Portal']"));
+        public IWebElement homeTitle => driver.FindElement(By.XPath("//a[text()='Dashboard Activities']"));
 
         
       
