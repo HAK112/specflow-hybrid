@@ -1,7 +1,8 @@
-﻿using System;
+using System;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using SpecFlowProjectDemo.Utilities;
+
 namespace SpecFlowProjectDemo.Pages
 {
     class LoginPage
@@ -24,7 +25,7 @@ namespace SpecFlowProjectDemo.Pages
         {
             this.driver = (AndroidDriver<AndroidElement>)Capabilities.driver;
             Console.WriteLine("Login Page Driver: "+this.driver);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+            this.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
         }
 
        public void clickSignIn() {
